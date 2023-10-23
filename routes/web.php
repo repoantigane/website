@@ -17,8 +17,15 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/limited-product', function () {
+    return view('pages.limited-product');
+});
 Route::get('/product-detail', function () {
-    return view('product-detail');
+    return view('pages.product-detail');
+});
+
+Route::get('/profile', function () {
+    return view('pages.profile');
 });
 
 Route::get('/login', function () {

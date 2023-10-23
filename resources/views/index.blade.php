@@ -139,7 +139,7 @@
                 <div class="row mb-4">
                     @for ($j = 0; $j < 4; $j++)
                         <div class="col-md-3">
-                            <a href="/product-detail">
+                            <a href="/limited-product">
                                 <div class="card text-bg-dark image-product">
                                     <img src="https://img.staticdj.com/d1f65eddde55c13fced3ee1b96e62e9b.jpeg"
                                         class="card-img" alt="..." style="aspect-ratio: 1; object-fit: cover">
